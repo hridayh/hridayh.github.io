@@ -62,6 +62,19 @@
         }
     </script>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const navLinks = document.querySelectorAll("nav ul li a");
+        navLinks.forEach(link => {
+            link.addEventListener("click", function() {
+                navLinks.forEach(lnk => lnk.classList.remove("active"));
+                this.classList.add("active");
+            });
+        });
+    });
+    </script>
+    
+
     <section id="contact">
         <h2>Contact</h2>
         <p>Provide your contact information here, including how to reach you on social media, your email address, or a contact form.</p>
