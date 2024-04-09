@@ -33,9 +33,35 @@
     
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <p>Showcase your projects or achievements here. You can use a gallery or list format to display your work.</p>
+        <p>Click on the items to view more details.</p>
+        <!-- Trigger Button for Modal -->
+        <a href="#myModal" class="trigger-btn" onclick="showModal()">Click to open Modal</a>
     </section>
     
+    <div id="myModal" class="modal">
+        <span class="close" onclick="hideModal()">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        function showModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "block";
+            // Assuming 'img' will be replaced with actual image details in implementation
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            // Example image and caption - replace with dynamic content as needed
+            modalImg.src = "path/to/your-image.jpg";
+            captionText.innerHTML = "Your caption here";
+        }
+
+        function hideModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+    </script>
+
     <section id="contact">
         <h2>Contact</h2>
         <p>Provide your contact information here, including how to reach you on social media, your email address, or a contact form.</p>
