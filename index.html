@@ -82,29 +82,92 @@
         </div>
         
     </section>
-    
-    
-    <div id="myModal" class="modal">
-        <span class="close" onclick="hideModal()">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
 
+    <!-- Portfolio Section -->
+    <section id="portfolio_new">
+        <h2>Portfolio_New</h2>
+
+        <!-- Project 1 -->
+        <div class="project" onclick="openModal('modal1')">
+            <h3>Facial Emotion Recognition</h3>
+            <p>Click for more details...</p>
+        </div>
+        <!-- Modal 1 -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal1')">&times;</span>
+                <h2>Facial Emotion Recognition</h2>
+                <p>This project involved developing a Deep Convolutional Neural Network (DCNN) pipeline for real-time facial emotion classification...</p>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project" onclick="openModal('modal2')">
+            <h3>Multi-Class Multi-Label Prediction of Street Views</h3>
+            <p>Click for more details...</p>
+        </div>
+        <!-- Modal 2 -->
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal2')">&times;</span>
+                <h2>Multi-Class Multi-Label Prediction of Street Views</h2>
+                <p>This project implemented a transfer learning approach using VGGNet and ResNet for enhanced object recognition from the nuImages dataset...</p>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project" onclick="openModal('modal3')">
+            <h3>Hate Speech Recognition of YouTube Comments</h3>
+            <p>Click for more details...</p>
+        </div>
+        <!-- Modal 3 -->
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal3')">&times;</span>
+                <h2>Hate Speech Recognition of YouTube Comments</h2>
+                <p>This project created a comprehensive pipeline for sentiment analysis and hate speech detection in YouTube comments using BERT and autoencoders...</p>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project" onclick="openModal('modal4')">
+            <h3>Keyword Extraction from Job Descriptions</h3>
+            <p>Click for more details...</p>
+        </div>
+        <!-- Modal 4 -->
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal4')">&times;</span>
+                <h2>Keyword Extraction from Job Descriptions</h2>
+                <p>This project built an LSTM-based pipeline for efficient keyword extraction from job descriptions, facilitating better job matching and candidate sourcing in recruitment processes...</p>
+            </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project" onclick="openModal('modal5')">
+            <h3>Book Recommender System</h3>
+            <p>Click for more details...</p>
+        </div>
+        <!-- Modal 5 -->
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal5')">&times;</span>
+                <h2>Book Recommender System</h2>
+                <p>Developed a Neural Collaborative Filtering (NCF) model to personalize book recommendations for users based on their historical ratings and interactions. This system enhances user engagement by suggesting books that align closely with their preferences, utilizing deep learning techniques to understand and predict user behaviors.</p>
+                <p><strong>Technologies Used:</strong> Python, PyTorch, Pandas, Scikit-learn</p>
+            </div>
+        </div>
+    </section>
+    
+    
     <script>
-        function showModal() {
-            var modal = document.getElementById("myModal");
-            modal.style.display = "block";
-            // Assuming 'img' will be replaced with actual image details in implementation
-            var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            // Example image and caption - replace with dynamic content as needed
-            modalImg.src = "path/to/your-image.jpg";
-            captionText.innerHTML = "Your caption here";
+        // JavaScript for opening and closing modals
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = "block";
         }
 
-        function hideModal() {
-            var modal = document.getElementById("myModal");
-            modal.style.display = "none";
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
         }
     </script>
 
