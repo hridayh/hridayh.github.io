@@ -5,7 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: linear-gradient(to right, #d3eef2 0%, #bbc3d2 100%);
-    color: #0a0202;
+    color: black;
 }
 
 header, nav, section, footer {
