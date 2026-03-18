@@ -3,96 +3,416 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hriday Harlalka - Data Scientist</title>
+    <title>Hriday Harlalka — ML Engineer & AI Systems Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Hriday Harlalka</h1>
-        <p>Data Scientist</p>
-    </header>
 
+    <!-- ───── NAVIGATION ───── -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">HH</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="https://github.com/hridayh" target="_blank" class="nav-cta">GitHub ↗</a>
+        </div>
+    </nav>
+
+    <!-- ───── HERO ───── -->
+    <section id="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">👋 Hey, I'm</p>
+            <h1 class="hero-name">Hriday Harlalka</h1>
+            <h2 class="hero-role">ML Engineer <span class="divider">&</span> AI Systems Builder</h2>
+            <p class="hero-description">
+                I design and ship <strong>production ML systems</strong> — from LLM-powered copilots and voice AI 
+                to demand-forecasting APIs and on-device inference. Georgia Tech Analytics · Based in Atlanta.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#contact" class="btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-photo-wrap">
+                <img src="images/MyImage.jpg" alt="Hriday Harlalka" class="hero-photo">
+            </div>
+        </div>
+        <div class="hero-scroll-hint">scroll ↓</div>
+    </section>
+
+    <!-- ───── ABOUT ───── -->
     <section id="about">
-        <h2>About Me</h2>
-        <img src="images/MyImage.jpg" alt="My Photo" style="width:200px; height:auto;">
-        <p>Hello! I'm <strong>Hriday Harlalka</strong>, a passionate and dedicated <strong>Data Scientist</strong> with over <strong>2 years</strong> of experience specializing in <strong>Data Analytics and Machine Learning Modelling</strong>. Based in <strong>Atlanta</strong>, I've developed a strong foundation in <strong>ML and AI technologies, especially NLP and Computer Vision</strong>, aiming to leverage my skills to contribute to <strong>complex data analysis pipleines</strong>.</p>
-    
-        <h3>Educational Background:</h3>
-        <p>I hold a <strong>Masters</strong> in <strong>Analytics</strong> from <strong>Georgia Institute of Technology</strong>, where I honed my skills in <strong>Deep Learning, Computer Vision and Statistical Analysis</strong>.</p>
-    
-        <h3>Professional Journey:</h3>
-        <p>My career has taken me through diverse roles, from <strong>Businiess Intelligence</strong> at <strong>Piramal Capital and Housing Finance</strong> to <strong>Data Scientist</strong> at <strong>Reliance Jio</strong>. This journey has equipped me with a broad set of skills and a unique perspective on various data complexities and their respective solutions.</p>
-    
-        <h3>Skills and Technologies:</h3>
-        <ul>
-            <li>PyTorch</li>
-            <li>TensorFlow</li>
-            <li>Natural Language Processing</li>
-            <li>Graph Representation Learning</li>
-            <li>Dashboards</li>
-            <li>Convolutional Neural Networks</li>
-            <li>Tree based Modeling</li>
-        </ul>
+        <div class="section-inner">
+            <span class="section-label">About</span>
+            <h2 class="section-title">Building systems at the edge of ML &amp; product</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm an ML engineer who cares about the full loop — not just model accuracy, 
+                        but <strong>data pipelines, inference APIs, evaluation harnesses, and the business 
+                        problem underneath</strong>. My background spans NLP, Computer Vision, and LLM systems.
+                    </p>
+                    <p>
+                        After a <strong>Master's in Analytics at Georgia Tech</strong> and roles in 
+                        Business Intelligence (<strong>Piramal Capital</strong>) and Data Science 
+                        (<strong>Reliance Jio</strong>), I now focus on building AI systems that are 
+                        production-worthy: versioned, observable, and actually useful.
+                    </p>
+                    <p>
+                        Lately I'm drawn to <strong>local-first AI</strong> (running LLMs on your own hardware), 
+                        <strong>voice AI</strong>, and <strong>applied ML for real operations</strong>.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <span class="highlight-icon">🎓</span>
+                        <div>
+                            <strong>M.S. Analytics</strong>
+                            <span>Georgia Institute of Technology</span>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-icon">💼</span>
+                        <div>
+                            <strong>Data Scientist</strong>
+                            <span>Reliance Jio</span>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-icon">📊</span>
+                        <div>
+                            <strong>BI Engineer</strong>
+                            <span>Piramal Capital &amp; Housing Finance</span>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-icon">📍</span>
+                        <div>
+                            <strong>Atlanta, GA</strong>
+                            <span>Open to remote &amp; relocation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    
-    <!-- <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Click on the items to view more details.</p>
-        Trigger Button for Modal -->
-        <!-- <a href="#myModal" class="trigger-btn" onclick="showModal()">Click to open Modal</a>
-    </section> -->
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-    
-        <div class="project">
-            <h3>Facial Emotion Recognition</h3>
-            <p>Developed a Deep Convolutional Neural Network (DCNN) pipeline for facial emotion classification, enhancing user interaction in applications by understanding emotional contexts.</p>
-            <p><strong>Technologies Used:</strong> Python, TensorFlow, OpenCV</p>
-            <a href="https://github.com/hridayh/facial-emotion-recognition">View Project</a>
-        </div>
-    
-        <div class="project">
-            <h3>Multi-Class Multi-Label Prediction of Street Views</h3>
-            <p>Implemented a transfer learning approach using VGGNet and ResNet for enhanced object recognition from the nuImages dataset, significantly improving accuracy in urban environment navigation systems.</p>
-            <p><strong>Technologies Used:</strong> Python, PyTorch, VGGNet, ResNet</p>
-            <a href="https://github.com/hridayh/multi-class-prediction">View Project</a>
-        </div>
-    
-        <div class="project">
-            <h3>Hate Speech Recognition of YouTube Comments</h3>
-            <p>Created a comprehensive pipeline for sentiment analysis and hate speech detection in YouTube comments using BERT and autoencoders, contributing to safer online environments.</p>
-            <p><strong>Technologies Used:</strong> Python, TensorFlow, BERT, Autoencoders</p>
-            <a href="https://github.com/hridayh/hate-speech-recognition">View Project</a>
-        </div>
-    
-        <div class="project">
-            <h3>Keyword Extraction from Job Descriptions</h3>
-            <p>Built an LSTM-based pipeline for efficient keyword extraction from job descriptions, facilitating better job matching and candidate sourcing in recruitment processes.</p>
-            <p><strong>Technologies Used:</strong> Python, Keras, LSTM</p>
-            <a href="https://github.com/hridayh/keyword-extraction">View Project</a>
-        </div>
+    <!-- ───── PROJECTS ───── -->
+    <section id="projects">
+        <div class="section-inner">
+            <span class="section-label">Projects</span>
+            <h2 class="section-title">What I've built</h2>
+            <p class="section-subtitle">End-to-end systems, not just notebooks.</p>
 
-        <div class="project">
-            <h3>Book Recommender System</h3>
-            <p>Developed a Neural Collaborative Filtering (NCF) model to personalize book recommendations for users based on their historical ratings and interactions. This system enhances user engagement by suggesting books that align closely with their preferences, utilizing deep learning techniques to understand and predict user behaviors.</p>
-            <p><strong>Technologies Used:</strong> Python, PyTorch, Pandas, Scikit-learn</p>
-            <a href="https://github.com/hridayh/Book-Recommendation-System">View Project</a>
+            <!-- Featured row -->
+            <div class="projects-featured">
+
+                <div class="project-card featured">
+                    <div class="card-header">
+                        <div class="card-badges">
+                            <span class="badge badge-new">NEW</span>
+                            <span class="badge badge-voice">Voice · Vision AI</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/hridayh/indian-jarvis-twin" target="_blank" title="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Indian Jarvis — Digital Twin Voice Assistant</h3>
+                    <p class="card-desc">
+                        FastAPI backend that ingests <strong>WhatsApp voice notes + CCTV snapshots</strong>, 
+                        extracts a live Business State (Sales / Credit / Stock), maintains a per-client 
+                        <strong>Digital Twin</strong>, predicts stockout &amp; payment-delay risk, and 
+                        responds in <strong>Hindi/Hinglish via TTS</strong>. Designed for SMB ops on the ground.
+                    </p>
+                    <ul class="card-bullets">
+                        <li>Whisper STT → LLM extraction → XGBoost risk scoring pipeline</li>
+                        <li>SQLite state store with Neo4j interface for later swap-in</li>
+                        <li>Vision inventory detection via Ultralytics (YOLO)</li>
+                    </ul>
+                    <div class="card-tech">
+                        <span>FastAPI</span><span>Whisper</span><span>XGBoost</span>
+                        <span>Ultralytics</span><span>SQLite</span><span>TTS</span>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="card-header">
+                        <div class="card-badges">
+                            <span class="badge badge-new">NEW</span>
+                            <span class="badge badge-llm">Local LLM</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/hridayh/telegram-copilot" target="_blank" title="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Telegram Chat Copilot</h3>
+                    <p class="card-desc">
+                        Privacy-first, <strong>local-first reply suggestion copilot</strong> for Telegram. 
+                        Ingests messages via webhook, maintains short-term conversational memory, 
+                        and generates <strong>3 contextual reply suggestions</strong> using a local LLM 
+                        via Ollama — no cloud, no data leaving your machine.
+                    </p>
+                    <ul class="card-bullets">
+                        <li>Webhook → memory → prompt → Ollama inference pipeline</li>
+                        <li>Copilot design: suggests only, never auto-sends</li>
+                        <li>Designed for RTX 2070 — Llama 3.2 3B / Qwen2.5 3B</li>
+                    </ul>
+                    <div class="card-tech">
+                        <span>FastAPI</span><span>Ollama</span><span>Llama 3.2</span>
+                        <span>Telegram API</span><span>Python</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Production systems row -->
+            <h3 class="projects-subhead">Production ML Systems</h3>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <div class="card-badges">
+                            <span class="badge badge-sys">LLM Systems</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/hridayh/llm-platform-copilot" target="_blank" title="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">LLM Platform Copilot</h3>
+                    <p class="card-desc">
+                        End-to-end RAG platform: doc ingestion → hybrid BM25 + embedding retrieval → 
+                        answer API with citations → offline eval harness + regression tests + 
+                        OpenTelemetry-ready observability.
+                    </p>
+                    <div class="card-tech">
+                        <span>FastAPI</span><span>BM25</span><span>RAG</span>
+                        <span>OpenTelemetry</span><span>Docker</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <div class="card-badges">
+                            <span class="badge badge-sys">Applied ML</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/hridayh/wood-export-ops-ml" target="_blank" title="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Wood Export Ops ML</h3>
+                    <p class="card-desc">
+                        Full ops ML system for a B2B wood-trading business: synthetic data generation, 
+                        demand forecasting (p50/p90 weekly), lead-time models, quote API, reorder 
+                        recommendations, and a Streamlit ops dashboard. Dockerized end-to-end.
+                    </p>
+                    <div class="card-tech">
+                        <span>FastAPI</span><span>XGBoost</span><span>Streamlit</span>
+                        <span>Docker</span><span>Scikit-learn</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Classic projects row -->
+            <h3 class="projects-subhead">Deep Learning &amp; NLP</h3>
+            <div class="projects-grid projects-grid-3">
+
+                <div class="project-card slim">
+                    <div class="card-header">
+                        <div class="card-badges"><span class="badge badge-cv">Computer Vision</span></div>
+                        <div class="card-links">
+                            <a href="https://github.com/hridayh/facial-emotion-recognition" target="_blank" title="GitHub">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Facial Emotion Recognition</h3>
+                    <p class="card-desc">DCNN pipeline for real-time facial emotion classification across 7 affect categories.</p>
+                    <div class="card-tech"><span>TensorFlow</span><span>OpenCV</span><span>Python</span></div>
+                </div>
+
+                <div class="project-card slim">
+                    <div class="card-header">
+                        <div class="card-badges"><span class="badge badge-cv">Computer Vision</span></div>
+                        <div class="card-links">
+                            <a href="https://github.com/hridayh/multi-class-prediction" target="_blank" title="GitHub">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Multi-Label Street View Classification</h3>
+                    <p class="card-desc">Transfer learning (VGGNet + ResNet) on nuImages for multi-label urban scene recognition.</p>
+                    <div class="card-tech"><span>PyTorch</span><span>VGGNet</span><span>ResNet</span></div>
+                </div>
+
+                <div class="project-card slim">
+                    <div class="card-header">
+                        <div class="card-badges"><span class="badge badge-nlp">NLP</span></div>
+                        <div class="card-links">
+                            <a href="https://github.com/hridayh/hate-speech-recognition" target="_blank" title="GitHub">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Hate Speech Detection — YouTube</h3>
+                    <p class="card-desc">BERT + autoencoder pipeline for sentiment analysis and hate speech detection at scale.</p>
+                    <div class="card-tech"><span>TensorFlow</span><span>BERT</span><span>Autoencoders</span></div>
+                </div>
+
+                <div class="project-card slim">
+                    <div class="card-header">
+                        <div class="card-badges"><span class="badge badge-nlp">NLP</span></div>
+                        <div class="card-links">
+                            <a href="https://github.com/hridayh/keyword-extraction" target="_blank" title="GitHub">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Keyword Extraction from JDs</h3>
+                    <p class="card-desc">LSTM-based pipeline for structured keyword extraction from job descriptions for recruitment automation.</p>
+                    <div class="card-tech"><span>Keras</span><span>LSTM</span><span>Python</span></div>
+                </div>
+
+                <div class="project-card slim">
+                    <div class="card-header">
+                        <div class="card-badges"><span class="badge badge-recsys">RecSys</span></div>
+                        <div class="card-links">
+                            <a href="https://github.com/hridayh/Book-Recommendation-System" target="_blank" title="GitHub">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Neural Collaborative Filtering — Books</h3>
+                    <p class="card-desc">NCF model for personalised book recommendations using deep learning over user-rating interaction matrices.</p>
+                    <div class="card-tech"><span>PyTorch</span><span>Pandas</span><span>Scikit-learn</span></div>
+                </div>
+
+            </div>
         </div>
-        
     </section>
-    
 
+    <!-- ───── SKILLS ───── -->
+    <section id="skills">
+        <div class="section-inner">
+            <span class="section-label">Skills</span>
+            <h2 class="section-title">Tools of the trade</h2>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <h4>LLM &amp; AI Systems</h4>
+                    <div class="skill-chips">
+                        <span>LangChain</span><span>Ollama</span><span>RAG</span>
+                        <span>Whisper</span><span>BERT</span><span>Prompt Eng.</span>
+                        <span>OpenTelemetry</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h4>ML &amp; Deep Learning</h4>
+                    <div class="skill-chips">
+                        <span>PyTorch</span><span>TensorFlow</span><span>XGBoost</span>
+                        <span>Scikit-learn</span><span>CNNs</span><span>Transformers</span>
+                        <span>Ultralytics / YOLO</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h4>Engineering &amp; Platform</h4>
+                    <div class="skill-chips">
+                        <span>FastAPI</span><span>Docker</span><span>Python</span>
+                        <span>SQLite</span><span>Streamlit</span><span>REST APIs</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h4>Data &amp; Analytics</h4>
+                    <div class="skill-chips">
+                        <span>Pandas</span><span>NumPy</span><span>SQL</span>
+                        <span>Feature Eng.</span><span>Time-series</span>
+                        <span>Demand Forecasting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───── CONTACT ───── -->
     <section id="contact">
-        <h2>Contact</h2>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/hridayharlalka" target="_blank">LinkedIn-Hriday</a></p>
-        <p>GitHub: <a href="https://github.com/hridayh" target="_blank">GitHub-Hriday</a></p>
-        <p>Email: <a href="mailto:hriday.harlalka@gmail.com" target="_blank">hriday.harlalka@gmail.com</a></p>
+        <div class="section-inner contact-inner">
+            <span class="section-label">Contact</span>
+            <h2 class="section-title">Let's work together</h2>
+            <p class="contact-lead">
+                I'm open to <strong>ML Engineering</strong>, <strong>AI Systems</strong>, and 
+                <strong>Applied ML</strong> roles — full-time or contract. 
+                Reach out on any of the channels below.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:hriday.harlalka@gmail.com" class="contact-card">
+                    <span class="contact-icon">✉️</span>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">hriday.harlalka@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/hridayharlalka" target="_blank" class="contact-card">
+                    <span class="contact-icon">💼</span>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">in/hridayharlalka</span>
+                </a>
+                <a href="https://github.com/hridayh" target="_blank" class="contact-card">
+                    <span class="contact-icon">🐙</span>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">github.com/hridayh</span>
+                </a>
+            </div>
+        </div>
     </section>
-    
+
+    <!-- ───── FOOTER ───── -->
     <footer>
-        <p>&copy; 2024 Hriday Harlalka. All rights reserved.</p>
+        <div class="footer-inner">
+            <span>© 2025 Hriday Harlalka</span>
+            <span class="footer-sep">·</span>
+            <span>Built with HTML &amp; CSS · No frameworks, no fluff.</span>
+        </div>
     </footer>
+
+    <!-- ───── SCROLL BEHAVIOUR ───── -->
+    <script>
+        // Sticky nav shadow on scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 40);
+        });
+
+        // Active nav link highlight + scroll reveal
+        const sections = document.querySelectorAll('section[id]');
+        const navLinksAll = document.querySelectorAll('.nav-links a');
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Nav highlight
+                    navLinksAll.forEach(a => a.classList.remove('active'));
+                    const active = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+                    if (active) active.classList.add('active');
+                }
+            });
+        }, { threshold: 0.15 });
+
+        sections.forEach(s => revealObserver.observe(s));
+    </script>
 </body>
 </html>
