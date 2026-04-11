@@ -377,6 +377,10 @@ section:nth-child(even) {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
 }
+/* Single card in a 2-col row spans full width */
+.projects-grid > .project-card:only-child {
+    grid-column: 1 / -1;
+}
 
 /* 3-col slim grid */
 .projects-grid-3 {
